@@ -1,0 +1,12 @@
+.content {
+  background-color: blue;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}

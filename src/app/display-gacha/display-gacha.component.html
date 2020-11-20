@@ -1,0 +1,11 @@
+<div class="$1">
+	<button (click)="onDisplay1()">x1</button>
+	<button (click)="onDisplay2()">x10</button>
+	<div>{{gacha.item[randomNumber]}}</div>
+</div>
+<div class="content" *ngFor="let item of items">
+	<div class="header">
+
+		<app-display-item [item]="inventory"></app-display-item>
+	</div>
+</div>
